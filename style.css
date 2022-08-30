@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background: black url(../images/bg.jpg);
+	|
+}
+body {
+	font: 14px/1.4 Georgia, serif;
+}
+
+article, aside, figure, footer, header, nav, section {
+	display: block;
+}
+
+#page-wrap {
+	width: 800px;
+	margin: 30px auto 10 px;
+	background: white;
+}
+header {
+	position: relative;
+	padding: 20px 20px 20px 250px
+	bordr-bottom: 1px solid #666;
+}
+header p {
+	position:absolute;
+}
+h1 {
+	font: 36px Helvetica, Arial, Sans-Serif;
+	text-transform: uppercase;
+	color: #666;
+	texte-shadow: 2px 2px 0 #d8d8dc
+}
+#logo {
+	position: absolute; 
+	top: -25px;
+	left: -50px;
+	background: url(../images/logo.png) no-repeat;
+	width: 295px;
+	height: 191px;
+}
