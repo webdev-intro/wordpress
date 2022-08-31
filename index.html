@@ -6,6 +6,9 @@
 
     <link rel='stylesheet' href='css/style.css' />
 
+    <!--Only load on homepage -->
+    <link rel='stylesheet' href='css/home.css' />
+
     <!--[if IE]>
             <script
     src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -19,7 +22,7 @@
 
 <body>
 
-    <div id="page-wrap">
+    <div id="page-wrap" class="group">
 
         <header>
             <div id="logo"></div>
@@ -35,9 +38,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
                 veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
+                Duis aute irure dolor in reprehenderit in voluptate velit.
             </p>
 
             <blockquote>
@@ -87,10 +88,10 @@
 
             <nav>
                 <ul>
-                    <li><a href="#">Buy Widgets</a></li>
-                    <li><a href="#">About Widget Corp</a></li>
-                    <li><a href="#">Contact US</a></li>
-                    <li><a href="#">The Grind <em>(our blog)</em></a></li>
+                    <li><a href="#">Buy Widgets <span></span></a></li>
+                    <li><a href="#">About Widget Corp <span></span></a></li>
+                    <li><a href="#">Contact US <span></span></a></li>
+                    <li><a href="#">The Grind <span></span><em>(our blog)</em></a></li>
                 </ul>
             </nav>
 
@@ -123,7 +124,7 @@
 
 
     </div> <!--END page-wrap-->
-    <footer>
+    <footer class="group">
         <div id="quote">One wheel turns another</div>
         <div id="copyright">&copy;2010 Widget Corp</div>
     </footer>
